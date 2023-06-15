@@ -1,5 +1,5 @@
 import React from "react";
-//Card 1
+//Card 1 --> Free
 function Card1(){
   return(
     <div class="col-lg-4">
@@ -31,7 +31,7 @@ function Card1(){
   )
 }
 
-//Card 2
+//Card 2 --> Plus
 function Card2(){
   return(
     <div class="col-lg-4">
@@ -60,7 +60,7 @@ function Card2(){
   )
 }
 
-//Card 3
+//Card 3 --> Pro
 function Card3(){
   return(
     <div class="col-lg-4">

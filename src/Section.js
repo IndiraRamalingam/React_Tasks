@@ -17,7 +17,7 @@ function CCardBody(props)
   return(
     <>
        <div className='col-lg-4 mb-5'>
-          <Card className="h-100" border="warning" style={{ width: '18rem' }}>
+          <Card className="h-100" border="secondary" style={{ width: '18rem' }}>
           <Card.Img variant="top" src={props.img} width="450px" height="300px"/>
           {/* <!-- Sale badge--> */}
           {props.title === "Special Item" || props.title === "Sale Item" ? (
